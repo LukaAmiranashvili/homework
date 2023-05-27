@@ -1,0 +1,50 @@
+body{
+    background-color:  red;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+ }
+ .center{
+    text-align: center;
+    
+ }
+
+.messagsection{
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+ 
+.gameboard{
+
+   position: absolute;
+   top: 30%;
+   left: 40%;
+   transform: translate(-50% -50%); 
+   width: 300px;
+   height: 300px;
+   text-align: center;
+   
+}
+
+.row{
+   height: 32%;
+   
+   
+}
+
+.col{
+   height: 100%;
+   width:  32%;
+   border:  2px solid white;
+   float: left;
+   font-size: 70px;
+   font-weight: bolder;
+   color:  white;
+   text-align: center;
+   cursor: pointer;
+   
+}
